@@ -11,42 +11,22 @@ import useJson from "./useJson";
 
 const defaultJson = JSON.stringify(
   {
-    appName: "JSON Crack",
-    author: "Aykut Saraç",
-    launched: 2022,
-    openSource: true,
-    stars: 34633,
-    upgrade: {
-      appName: "ToDiagram",
-      detail: "New powerful JSON editor.",
-      website: "https://todiagram.com",
-      brandColor: "#fe5e49",
-      paid: true,
+    bestellung: {
+      name: "Maria",
+      pizza: "Margherita",
+      groesse: "Medium",
+      extras: ["Oliven", "extra Käse"],
+      adresse: {
+        strasse: "Musterstraße",
+        hausnummer: 12,
+        postleitzahl: 12345,
+        stadt: "Musterstadt",
+      },
+      status: {
+        bezahlt: true,
+        abgeholt: false,
+      },
     },
-    milestones: [
-      {
-        title: "Launch",
-        year: 2022,
-      },
-      {
-        title: "10K Stars",
-        date: 2022,
-      },
-      {
-        title: "20K Stars",
-        date: 2023,
-      },
-      {
-        title: "30K Stars",
-        date: 2024,
-      },
-    ],
-    social: {
-      github: "https://github.com/AykutSarac/jsoncrack.com",
-      twitter: "https://x.com/jsoncrack",
-      linkedin: "https://linkedin.com/company/todiagram",
-    },
-    images: ["https://jsoncrack.com/assets/192.png"],
   },
   null,
   2

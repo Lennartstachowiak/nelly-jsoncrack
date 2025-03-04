@@ -60,7 +60,7 @@ export const ViewMenu = () => {
 
   useHotkeys([
     ["mod+shift+d", toggleDirection],
-    ["mod+shift+c", toggleExpandCollapseGraph],
+    ["mod+c", toggleExpandCollapseGraph],
     [
       "mod+f",
       () => {

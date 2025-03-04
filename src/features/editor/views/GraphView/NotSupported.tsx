@@ -143,7 +143,6 @@ export const NotSupported = () => {
   return (
     <StyledNotSupported>
       <StyledContent>
-        <UpgradeContent direction="column-reverse" />
         <Text c="dimmed" maw="400" my="lg" ta="center">
           JSON Crack is unable to support data of this size. Please try our new editor for better
           performance.
