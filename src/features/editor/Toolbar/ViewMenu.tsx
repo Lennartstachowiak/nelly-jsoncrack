@@ -127,7 +127,7 @@ export const ViewMenu = () => {
               leftSection={graphCollapsed ? <VscExpandAll /> : <VscCollapseAll />}
               rightSection={
                 <Text ml="md" fz={10} c="dimmed">
-                  {coreKey} Shift C
+                  {coreKey} C
                 </Text>
               }
             >
