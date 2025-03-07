@@ -11,21 +11,21 @@ import useJson from "./useJson";
 
 const defaultJson = JSON.stringify(
   {
-    bestellung: {
-      name: "Maria",
-      pizza: "Margherita",
-      groesse: "Medium",
-      extras: ["Oliven", "extra Käse"],
-      adresse: {
-        strasse: "Musterstraße",
-        hausnummer: 12,
-        postleitzahl: 12345,
-        stadt: "Musterstadt",
-      },
-      status: {
-        bezahlt: true,
-        abgeholt: false,
-      },
+    formular: {
+      titel: "Fragebogen",
+      fragen: [
+        {
+          typ: "text",
+          frage: "Ihr Name?",
+          required: true,
+        },
+        {
+          typ: "checkbox",
+          frage: "Symptome?",
+          required: false,
+          optionen: ["Kopfschmerzen", "Müdigkeit", "Fieber"],
+        },
+      ],
     },
   },
   null,
